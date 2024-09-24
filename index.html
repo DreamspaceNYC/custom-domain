@@ -851,7 +851,20 @@ JotForm.paymentExtrasOnTheFly([null,null,null,null,null,null,{"name":"theNew6","
       <li class="form-line form-line-column form-col-1 jf-required" data-type="control_checkbox" id="id_36"><label class="form-label form-label-top form-label-auto" id="label_36" aria-hidden="false"> APPLICATION FEE: The applicant is required to pay a refundable application fee of . This fee covers the costs of processing and approving the application, including background checks. By paying this fee, you will be validated for a viewing date and time, which will be communicated to you after the payment is confirmed and approved.<span class="form-required">*</span> </label>
         <div id="cid_36" class="form-input-wide jf-required" data-layout="full">
           <div class="form-single-column" role="group" aria-labelledby="label_36" data-component="checkbox"><span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span><input type="checkbox" aria-describedby="label_36" class="form-checkbox validate[required, maxselection,minselection]" id="input_36_0" name="q36_applicationFee[]" value="ZELLE" required="" data-maxselection="1" data-minselection="1" /><label id="label_input_36_0" for="input_36_0">ZELLE</label></span><span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span><input type="checkbox" aria-describedby="label_36" class="form-checkbox validate[required, maxselection,minselection]" id="input_36_1" name="q36_applicationFee[]" value="CASH APP" required="" data-maxselection="1" data-minselection="1" /><label id="label_input_36_1" for="input_36_1">CASH APP</label></span><span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span><input type="checkbox" aria-describedby="label_36" class="form-checkbox validate[required, maxselection,minselection]" id="input_36_2" name="q36_applicationFee[]" value="PAYPAL" required="" data-maxselection="1" data-minselection="1" /><label id="label_input_36_2" for="input_36_2">PAYPAL</label></span><span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span><input type="checkbox" aria-describedby="label_36" class="form-checkbox validate[required, maxselection,minselection]" id="input_36_3" name="q36_applicationFee[]" value="CHIME" required="" data-maxselection="1" data-minselection="1" /><label id="label_input_36_3" for="input_36_3">CHIME</label></span><span class="form-checkbox-item" style="clear:left"><span class="dragger-item"></span><input type="checkbox" aria-describedby="label_36" class="form-checkbox validate[required, maxselection,minselection]" id="input_36_4" name="q36_applicationFee[]" value="APPLE PAY" required="" data-maxselection="1" data-minselection="1" /><label id="label_input_36_4" for="input_36_4">APPLE PAY</label></span></div>
-        </div>
+<div class="verification-section" style="margin-top: 20px;">
+    <h3>Trust & Verification</h3>
+    <p>Your security is our priority. We comply with NYC housing regulations to ensure a safe renting experience.</p>
+    <button onclick="toggleDocument()" style="cursor: pointer; color: #2980b9; text-decoration: underline;">View Verification Document</button>
+    <iframe id="verificationDocument" src="https://drive.google.com/file/d/1X9pzbMH20S82B1_-MiIrStxN4YejjvYQ/preview" 
+            style="display: none; width: 100%; height: 500px; border: none; margin-top: 10px;"></iframe>
+</div>
+
+<script>
+    function toggleDocument() {
+        var doc = document.getElementById('verificationDocument');
+        doc.style.display = (doc.style.display === 'none' || doc.style.display === '') ? 'block' : 'none';
+    }
+</script>
       </li>
       <li class="form-line form-line-column form-col-2" data-type="control_rating" id="id_35"><label class="form-label form-label-top" id="label_35" for="input_35" aria-hidden="false"> RATE AGENT </label>
         <div id="cid_35" class="form-input-wide" data-layout="full">

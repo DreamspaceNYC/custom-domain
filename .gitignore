@@ -1,0 +1,4 @@
+# Generated storyboard render outputs
+generated_images/**
+!generated_images/
+!generated_images/.gitkeep

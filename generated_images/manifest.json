@@ -1,0 +1,512 @@
+[
+  {
+    "image_number": 1,
+    "file": "generated_images/image_001.png",
+    "prompt": "cinematic true-crime documentary frame, talking grey parrot on perch in dim room, evidence-board style background out of focus, moody shadows, shallow depth of field, muted colors, high detail, realistic slightly stylized, 16:9, no text, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 2,
+    "file": "generated_images/image_002.png",
+    "prompt": "fictionalized woman age 36 standing by cold window in modest suburban home, winter light, anxious expression, documentary reenactment style, shallow DOF, muted palette, 16:9, no text or logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 3,
+    "file": "generated_images/image_003.png",
+    "prompt": "establishing shot of modest Michigan neighborhood in winter, overcast sky, quiet street, true-crime documentary style, desaturated tones, cinematic realism, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 4,
+    "file": "generated_images/image_004.png",
+    "prompt": "fictional casino interior, woman in cardigan focused intensely on slot machine glow, colorful lights reflected on face, shallow depth of field, cinematic documentary look, 16:9, no logos, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 5,
+    "file": "generated_images/image_005.png",
+    "prompt": "modest kitchen table with scattered envelopes, sparse groceries, couple in background worried, warm low light, realistic true-crime reenactment, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 6,
+    "file": "generated_images/image_006.png",
+    "prompt": "woman assisting disabled husband in wheelchair through small living room, tender but strained mood, warm practical lamp lighting, cinematic documentary style, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 7,
+    "file": "generated_images/image_007.png",
+    "prompt": "woman walking toward local casino entrance at dusk, neon glow without readable signs, reflective wet pavement, moody atmosphere, true-crime cinematic style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 8,
+    "file": "generated_images/image_008.png",
+    "prompt": "close-up hands fanning many generic lottery-style tickets with no readable text, tense grip, shallow focus, dramatic shadows, documentary reenactment style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 9,
+    "file": "generated_images/image_009.png",
+    "prompt": "symbolic scene of blank calendar pages flipping in dim room, woman blurred in background at table, moody time-passing visual, cinematic 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 10,
+    "file": "generated_images/image_010.png",
+    "prompt": "documentary-style close shot of cash exchanged for generic tickets at convenience counter, clerk out of focus, muted color palette, 16:9, no logos or text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 11,
+    "file": "generated_images/image_011.png",
+    "prompt": "night exterior of casino parking lot, lone car under sodium lights, distant neon glow, ominous mood, cinematic true-crime look, 16:9, no readable signage",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 12,
+    "file": "generated_images/image_012.png",
+    "prompt": "stylized documentary portrait of same woman with subtle stress progression, layered exposure effect, muted tones, dramatic shadows, 16:9, realistic",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 13,
+    "file": "generated_images/image_013.png",
+    "prompt": "woman isolated at bright slot machine in otherwise dark casino floor, tunnel-vision composition, shallow DOF, true-crime aesthetic, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 14,
+    "file": "generated_images/image_014.png",
+    "prompt": "close shot of hand feeding stack of cash into slot machine bill acceptor, anxious fingers, cinematic contrast, documentary reenactment style, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 15,
+    "file": "generated_images/image_015.png",
+    "prompt": "disabled man in wheelchair at kitchen table opening nearly empty wallet, worried face, warm dim lighting, realistic true-crime style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 16,
+    "file": "generated_images/image_016.png",
+    "prompt": "woman alone at night with calculator and envelopes, tense expression, lamp-lit shadows, cinematic documentary tone, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 17,
+    "file": "generated_images/image_017.png",
+    "prompt": "close-up of woman taking household checkbook from drawer, secrecy mood, shallow depth of field, muted colors, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 18,
+    "file": "generated_images/image_018.png",
+    "prompt": "symbolic shot of official-looking envelope pushed aside while cash is pocketed, hands only, noir lighting, true-crime reenactment, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 19,
+    "file": "generated_images/image_019.png",
+    "prompt": "tabletop composition of stacked unopened envelopes beside casino chips and tickets, dramatic side lighting, moody documentary style, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 20,
+    "file": "generated_images/image_020.png",
+    "prompt": "domestic scene, man in wheelchair unaware in foreground, woman in background quickly hiding envelope in cabinet, warm-to-cool mixed lighting, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 21,
+    "file": "generated_images/image_021.png",
+    "prompt": "cinematic portrait of disabled husband in modest living room, gentle practical light, observant expression, high detail, true-crime reenactment style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 22,
+    "file": "generated_images/image_022.png",
+    "prompt": "abstract memory scene of damaged car silhouette at rainy night intersection, no injuries shown, soft blur edges, somber documentary style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 23,
+    "file": "generated_images/image_023.png",
+    "prompt": "man in wheelchair waiting by dim window at night, clock silhouette, concern on face, cinematic moody tones, 16:9, no readable numbers",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 24,
+    "file": "generated_images/image_024.png",
+    "prompt": "split-composition style scene: woman under casino lights on one side, husband in dark quiet home on other, documentary true-crime mood, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 25,
+    "file": "generated_images/image_025.png",
+    "prompt": "man in wheelchair switching off living room lamp in modest house, thrift-conscious mood, warm low-key lighting, cinematic realism, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 26,
+    "file": "generated_images/image_026.png",
+    "prompt": "close-up of woman pressing slot machine controls with obsessive focus, colorful bokeh lights, shallow DOF, true-crime reenactment, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 27,
+    "file": "generated_images/image_027.png",
+    "prompt": "same woman appearing older and more exhausted in casino restroom mirror, harsh overhead light, cinematic documentary style, muted palette, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 28,
+    "file": "generated_images/image_028.png",
+    "prompt": "front door interior with large pile of unopened envelopes on floor, winter boots nearby, dramatic shadows, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 29,
+    "file": "generated_images/image_029.png",
+    "prompt": "woman at cluttered desk holding head in hands, envelopes and past-due style papers blurred, low-key cinematic lighting, true-crime style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 30,
+    "file": "generated_images/image_030.png",
+    "prompt": "ominous silhouette of tow truck near modest driveway at dusk, homeowner curtain view perspective, suspenseful documentary look, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 31,
+    "file": "generated_images/image_031.png",
+    "prompt": "suburban house exterior under dark storm clouds, neglected lawn, cinematic true-crime framing, desaturated colors, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 32,
+    "file": "generated_images/image_032.png",
+    "prompt": "woman staring at vibrating phone on table without answering, anxious avoidance, dim kitchen light, documentary style, 16:9, no screen text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 33,
+    "file": "generated_images/image_033.png",
+    "prompt": "close-up of open empty purse beside official-looking envelope, bleak mood, shallow focus, cinematic shadows, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 34,
+    "file": "generated_images/image_034.png",
+    "prompt": "mail slot view as legal-looking envelope lands on floor, moody low-angle shot, true-crime reenactment, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 35,
+    "file": "generated_images/image_035.png",
+    "prompt": "woman casually tossing unopened official envelope onto cluttered counter, detached expression, warm interior light with dark corners, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 36,
+    "file": "generated_images/image_036.png",
+    "prompt": "close-up newspaper page on breakfast table with legal-notice area intentionally out of focus, reading glasses nearby, muted tones, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 37,
+    "file": "generated_images/image_037.png",
+    "prompt": "older woman at kitchen table shocked while reading newspaper, morning light, documentary reenactment style, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 38,
+    "file": "generated_images/image_038.png",
+    "prompt": "living room conversation between elderly mother and disabled son in wheelchair, concern on both faces, warm practical lighting, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 39,
+    "file": "generated_images/image_039.png",
+    "prompt": "close portrait of man in wheelchair stunned while holding blurred paper, shallow depth, dramatic shadows, true-crime style, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 40,
+    "file": "generated_images/image_040.png",
+    "prompt": "tense domestic argument in small kitchen, man in wheelchair facing woman defensively, moody side lighting, documentary cinematic realism, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 41,
+    "file": "generated_images/image_041.png",
+    "prompt": "woman giving forced reassuring smile while holding phone, eyes worried, husband blurred in foreground, 16:9 true-crime style",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 42,
+    "file": "generated_images/image_042.png",
+    "prompt": "close-up untouched phone on table in dim room, long shadows, heavy silence mood, cinematic documentary frame, 16:9, no screen text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 43,
+    "file": "generated_images/image_043.png",
+    "prompt": "ominous hallway shot with woman silhouette at far end, single overhead light, deep shadows, suspenseful true-crime mood, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 44,
+    "file": "generated_images/image_044.png",
+    "prompt": "collage-like cinematic montage: envelopes, slot machine lights, house exterior, distressed woman face, desaturated tones, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 45,
+    "file": "generated_images/image_045.png",
+    "prompt": "empty living room with furniture outlines on carpet, cold daylight through blinds, eviction foreboding, documentary style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 46,
+    "file": "generated_images/image_046.png",
+    "prompt": "woman seated alone at table at night, face half-lit, calculating expression, noir-inspired true-crime reenactment, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 47,
+    "file": "generated_images/image_047.png",
+    "prompt": "symbolic still life of two coffee mugs and overturned family photo frame in dim kitchen, ominous atmosphere, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 48,
+    "file": "generated_images/image_048.png",
+    "prompt": "woman staring at bathroom mirror with distant expression, cool fluorescent light, documentary realism, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 49,
+    "file": "generated_images/image_049.png",
+    "prompt": "top-down shot of three folded handwritten-style notes without readable words, pen and trembling hand, cinematic shadows, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 50,
+    "file": "generated_images/image_050.png",
+    "prompt": "close-up of woman\u2019s watery eyes and hand writing on paper, text intentionally blurred/unreadable, warm lamp light, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 51,
+    "file": "generated_images/image_051.png",
+    "prompt": "dramatic close-up of drawer opening revealing handgun in shadow, no brand details, suspenseful documentary style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 52,
+    "file": "generated_images/image_052.png",
+    "prompt": "rear shot of woman walking slowly down dim hallway toward partially open bedroom door, long shadows, true-crime cinematic, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 53,
+    "file": "generated_images/image_053.png",
+    "prompt": "seen from hallway, silhouettes of man and woman arguing inside bedroom, tense body language, no physical contact shown, moody light, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 54,
+    "file": "generated_images/image_054.png",
+    "prompt": "dark hallway with sudden muzzle-flash-like bursts from bedroom doorway, dropped framed photo on floor, suspense implication only, no injuries, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 55,
+    "file": "generated_images/image_055.png",
+    "prompt": "somber bedroom after chaos, wheelchair near bed, overturned lamp, stillness and silence, no bodies visible in detail, no gore, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 56,
+    "file": "generated_images/image_056.png",
+    "prompt": "woman silhouette stumbling into dark living room, cold blue night tones, handheld documentary feel, 16:9, no gore",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 57,
+    "file": "generated_images/image_057.png",
+    "prompt": "high-angle shot of woman collapsed on carpet, chest subtly rising, face partially obscured by shadow, no visible wounds, cinematic true-crime style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 58,
+    "file": "generated_images/image_058.png",
+    "prompt": "close-up hand pushing handgun under couch into darkness, tense lighting, shallow focus, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 59,
+    "file": "generated_images/image_059.png",
+    "prompt": "hallway floor with disturbed rug and dragging motion implied by displaced objects, woman silhouette moving toward bedroom, no gore, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 60,
+    "file": "generated_images/image_060.png",
+    "prompt": "bedroom wide shot with two still figures under blanket, cold dawn light, haunting quiet, documentary reenactment, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 61,
+    "file": "generated_images/image_061.png",
+    "prompt": "middle-aged neighbor in winter jacket holding phone with worried expression by window, overcast daylight, 16:9, no screen text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 62,
+    "file": "generated_images/image_062.png",
+    "prompt": "suburban porch shot, concerned neighbor carrying grocery bag approaching closed front door, cold tones, cinematic 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 63,
+    "file": "generated_images/image_063.png",
+    "prompt": "hallway perspective with dropped grocery bag spilling items and neighbor frozen in shock at bedroom doorway, no bodies shown clearly, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 64,
+    "file": "generated_images/image_064.png",
+    "prompt": "nightfall exterior of modest house with flashing red-blue lights reflecting on siding, officers as silhouettes, no readable markings, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 65,
+    "file": "generated_images/image_065.png",
+    "prompt": "investigators in plain dark jackets examining bedroom scene, forensic-style posture, respectful distance, no gore, cinematic documentary, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 66,
+    "file": "generated_images/image_066.png",
+    "prompt": "close-up of woman\u2019s eyes snapping open while lying on bed, officers blurred in background reacting, dramatic focus pull, 16:9, no gore",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 67,
+    "file": "generated_images/image_067.png",
+    "prompt": "hospital corridor scene, medical team rushing patient on gurney under fluorescent lights, documentary realism, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 68,
+    "file": "generated_images/image_068.png",
+    "prompt": "hospital room interview, detective seated beside woman patient, guarded expression, neutral lighting, true-crime reenactment, 16:9, no text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 69,
+    "file": "generated_images/image_069.png",
+    "prompt": "investigation office with sparse evidence board and frustrated detective, details blurred/unreadable, moody overhead lighting, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 70,
+    "file": "generated_images/image_070.png",
+    "prompt": "woman exiting institutional building with neutral expression, overcast day, long lens documentary shot, 16:9, no signage text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 71,
+    "file": "generated_images/image_071.png",
+    "prompt": "dramatic portrait of grey parrot perched in quiet living room, single shaft of light, suspenseful atmosphere, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 72,
+    "file": "generated_images/image_072.png",
+    "prompt": "warm-toned memory scene of disabled man smiling gently with pet grey parrot on shoulder, homey background blur, cinematic 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 73,
+    "file": "generated_images/image_073.png",
+    "prompt": "woman bringing covered bird cage into modest home, late afternoon light, contemplative mood, documentary style, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 74,
+    "file": "generated_images/image_074.png",
+    "prompt": "flashback-style shot from parrot-eye level in dim hallway, arguing silhouettes in distant room, suspenseful, no violence shown, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 75,
+    "file": "generated_images/image_075.png",
+    "prompt": "grey parrot on perch with open beak mid-vocalization, ex-wife in background startled, warm interior light, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 76,
+    "file": "generated_images/image_076.png",
+    "prompt": "tense close-up of woman leaning toward talking parrot, small audio recorder on table, dramatic shadows, documentary true-crime style, 16:9, no logos",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 77,
+    "file": "generated_images/image_077.png",
+    "prompt": "portrait of woman with shocked realization while parrot watches from perch, shallow depth, moody cinematic lighting, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 78,
+    "file": "generated_images/image_078.png",
+    "prompt": "empty courthouse corridor with soft window light and distant blurred figures, legal uncertainty mood, documentary style, 16:9, no readable signs",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 79,
+    "file": "generated_images/image_079.png",
+    "prompt": "family members seated in silence in modest living room, visible frustration and grief, muted palette, true-crime reenactment, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 80,
+    "file": "generated_images/image_080.png",
+    "prompt": "close-up hands passing small audio device to reporter outside station entrance, cameras blurred, no logos, cinematic doc style, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 81,
+    "file": "generated_images/image_081.png",
+    "prompt": "dynamic newsroom montage with many screens and world map shapes out of focus, journalists at desks, cool tones, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 82,
+    "file": "generated_images/image_082.png",
+    "prompt": "detective team around table reopening case files, determined expressions, desk lamp pools of light, cinematic true-crime, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 83,
+    "file": "generated_images/image_083.png",
+    "prompt": "predawn exterior arrest scene with officers escorting woman to vehicle, hands behind back implied, respectful distance, no force detail, no logos, 16:9",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 84,
+    "file": "generated_images/image_084.png",
+    "prompt": "courtroom wide shot with judge silhouette and defendant seated, solemn mood, cinematic documentary style, 16:9, no readable text",
+    "status": "dry-run"
+  },
+  {
+    "image_number": 85,
+    "file": "generated_images/image_085.png",
+    "prompt": "closing symbolic shot of quiet empty suburban house at dusk while grey parrot perched in foreground branch, cold-blue twilight, haunting true-crime mood, high detail, 16:9, no text or logos",
+    "status": "dry-run"
+  }
+]
